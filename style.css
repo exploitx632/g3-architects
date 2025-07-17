@@ -93,6 +93,10 @@
     padding: 50px;
   }
 
+  .teams{
+    visibility: hidden;
+  }
+
   .team{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -130,7 +134,7 @@
   /* media query  */
   @media screen and (max-width:576px) {
     header{
-        padding: 15px 10px 0;
+        padding: 15px 0 0;
         margin-bottom: 50px;
     }
     .nav-bar{
@@ -173,6 +177,9 @@
         flex-direction: column;
         gap: 20px;
 
+      }
+      .teams{
+        visibility: visible;
       }
       .team{
         gap: 10px;

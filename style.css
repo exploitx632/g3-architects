@@ -224,5 +224,18 @@
         width: 100%;
       }
 
-      
+      /* fact section  */
+
+      .fact-content{
+        margin: 10px;
+        width: 100%;
+      }
+      .fact-items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: auto;
+      }
+
   }

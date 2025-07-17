@@ -357,6 +357,7 @@ footer {
     .team {
         gap: 10px;
         grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 50px;
     }
 
     .feature-content {

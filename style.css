@@ -344,10 +344,13 @@ footer {
 
     /* feature section  */
     .feature {
-        padding: 10px;
+        padding: 20px;
         flex-direction: column;
         gap: 20px;
 
+    }
+    .feature-title{
+        padding-right: 50px;
     }
 
     .teams {
@@ -363,32 +366,38 @@ footer {
     .feature-content {
         width: 100%;
     }
+
     /* architect section  */
-    .architect{
+    .architect {
         flex-wrap: wrap-reverse;
         /* justify-content: flex-end; */
     }
-    .architect-content,.title{
+
+    .architect-content,
+    .title {
         width: 100%;
     }
-.architect-image img{
-    width: 100%;
-    height: auto;
-}
 
-.experience{
-    margin: 0;
-    height: 90px;
-    width: 50%;
-    padding: 10px;
-    margin-top: -50px;
-}
-.experience h2{
-    font-size: 2rem;
-}
+    .architect-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .experience {
+        margin: 0;
+        height: 90px;
+        width: 50%;
+        padding: 10px;
+        margin-top: -50px;
+    }
+
+    .experience h2 {
+        font-size: 2rem;
+    }
+
     /* fact section  */
 
-    .facts{
+    .facts {
         padding: 10px;
     }
 

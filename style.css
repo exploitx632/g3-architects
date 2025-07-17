@@ -94,7 +94,7 @@
   }
 
   .teams{
-    visibility: hidden;
+    display: none;
   }
 
   .team{
@@ -129,6 +129,40 @@
     margin-bottom: 20px;
   }
 
+  /* fact section  */
+  .facts{
+    margin-bottom: 100px;
+  }
+ .fact-content{
+    height: 150px;
+    width: 40%;
+    margin:0 0 100px 100px ;
+ }
+ .fact-title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+ }
+  .fact-items{
+    height: 170px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 50px;
+  }
+  .fact-item{
+    border: 1px solid #ff8f0e;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .fact-value{
+    font-size: 3rem;
+  }
 
 
   /* media query  */
@@ -189,4 +223,6 @@
       .feature-content{
         width: 100%;
       }
+
+      
   }

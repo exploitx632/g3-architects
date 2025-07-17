@@ -388,6 +388,10 @@ footer {
 }
     /* fact section  */
 
+    .facts{
+        padding: 10px;
+    }
+
     .fact-content {
         margin: 10px;
         width: 100%;
